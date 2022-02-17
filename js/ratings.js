@@ -1,3 +1,5 @@
+const { replaceWith } = require("cheerio/lib/api/manipulation");
+
 collect_ratings() {
 
     let ratings = {
@@ -11,7 +13,7 @@ collect_ratings() {
     let elements = document.querySelectorAll.rating;
 
     array.forEach(element => {
-
+        replace()
     });
 }
 
