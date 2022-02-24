@@ -15,6 +15,7 @@ collect_ratings() {
     array.forEach(element => {
         replace()
     });
-}
+};
+
 
 
