@@ -1,4 +1,5 @@
 const { replaceWith } = require("cheerio/lib/api/manipulation");
+const { default: options } = require("cheerio/lib/options");
 
 collect_ratings(); {
 
@@ -23,5 +24,6 @@ collect_ratings(); {
     return ratings;
 };
 
+const itemCost = item.reduce(items, options);
 
 
